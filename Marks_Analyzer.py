@@ -1,0 +1,11 @@
+import numpy as np
+marks = np.array([45, 82, 67, 91, 35, 78, 50, 29])
+print(marks)
+print("Highest marks:",marks.max())
+print("Lowest marks:",marks.min())
+print("Avg Marks:",marks.mean())
+print("Students Passed:",marks[marks >= 40])
+print("Students scored above 80:",marks[marks > 80 ])
+print(marks+5)
+new_marks = marks.reshape(2, 4)
+print(new_marks)
